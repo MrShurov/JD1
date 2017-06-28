@@ -24,17 +24,14 @@ public class Triangle implements Figure {
         return a;
     }
 
-    @Override
     public String getName() {
         return "Triangle";
     }
 
-    @Override
     public double getSquare() {
         return Math.sqrt((getPerimeter() * (getPerimeter() - a) * (getPerimeter() - b) * (getPerimeter() - c)));
     }
 
-    @Override
     public double getPerimeter() {
         return a + b + c;
     }

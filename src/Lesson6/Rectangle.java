@@ -17,17 +17,14 @@ public class Rectangle implements Figure {
         this.b = b;
     }
 
-    @Override
     public String getName() {
         return "Rectangle";
     }
 
-    @Override
     public double getSquare() {
         return a * b;
     }
 
-    @Override
     public double getPerimeter() {
         return a * 2 + b * 2;
     }

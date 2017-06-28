@@ -5,7 +5,6 @@ public class ATM {
     public int amount50;
     public int amount100;
     public int addAmount;
-    public int requestedAmount;
     public int sum;
     public boolean takeOff;
 

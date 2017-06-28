@@ -11,17 +11,14 @@ public class Square implements Figure{
         this.x = x;
     }
 
-    @Override
     public String getName() {
         return "Square";
     }
 
-    @Override
     public double getSquare() {
         return x * x;
     }
 
-    @Override
     public double getPerimeter() {
         return x * 4;
     }

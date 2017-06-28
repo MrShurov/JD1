@@ -1,8 +1,11 @@
 package Lesson6;
 
-public class Demo extends CompareSquare{
+import Lesson6.CompareSquare;
+
+public class Demo{
 
     public static void main(String[] args) {
+        CompareSquare cs = new CompareSquare();
         Circle circle = new Circle(10);
         Triangle triangle = new Triangle(3, 4, 5);
         Rectangle rectangle = new Rectangle(2, 8);
@@ -11,7 +14,7 @@ public class Demo extends CompareSquare{
         System.out.println(triangle.toString());
         System.out.println(rectangle.toString());
         System.out.println(square.toString());
-        CompareSquare(circle, triangle);
-        CompareSquare(square, rectangle);
+        cs.Compare(circle, triangle);
+        cs.Compare(square, rectangle);
     }
 }

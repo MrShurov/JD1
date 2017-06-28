@@ -11,17 +11,14 @@ public class Circle implements Figure {
         return radius;
     }
 
-    @Override
     public String getName() {
         return "Circle";
     }
 
-    @Override
     public double getSquare() {
         return Math.PI * radius * radius;
     }
 
-    @Override
     public double getPerimeter() {
         return 2 * Math.PI * radius;
     }
