@@ -1,5 +1,7 @@
 package Lesson6;
 
+import org.apache.log4j.Logger;
+
 public class Triangle implements Figure {
     private double a;
     private double b;
