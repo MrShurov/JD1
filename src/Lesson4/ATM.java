@@ -1,5 +1,7 @@
 package Lesson4;
 
+import Lesson7.Annotations.ClassAnalyzer;
+
 public class ATM {
     public int amount20;
     public int amount50;

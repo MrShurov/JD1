@@ -10,7 +10,7 @@ public class Task6 {
         for(int i = 0; i < str.length() - 1; i++){
             if(str.charAt(i) == str.charAt(i + 1)){
                 char a = str.charAt(i);
-                str = str.replaceFirst(a,' ');
+                str = str.replace(a,' ');
             }
         }
         System.out.println(str);
