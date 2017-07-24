@@ -12,11 +12,10 @@ public class Task7 {
             String str;
             while ((str = br.readLine()) != null) {
                 sb.append(str + "\n");
-
             }
-            sb.reverse();
-            writer.write(sb.toString());
+            writer.write(sb.reverse().toString());
             br.close();
+            writer.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
