@@ -12,7 +12,7 @@ public class Task1 {
     public static void addStringPlus(String str){
         long start = start();
         String result = "";
-        for(int i = 0; i < 100000; i++){
+        for(int i = 0; i < 100; i++){
             result = result + str;
         }
         finish(start);
@@ -21,7 +21,7 @@ public class Task1 {
     public static void addStringBuilder(String str){
         long start = start();
         StringBuilder strBuilder = new StringBuilder(str);
-        for(int i = 0; i < 100000; i++) {
+        for(int i = 0; i < 100; i++) {
             strBuilder.append(str);
         }
         finish(start);
