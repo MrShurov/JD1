@@ -1,0 +1,5 @@
+<root>
+    <item name='java.util.regex.Matcher java.lang.String replaceAll(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>
