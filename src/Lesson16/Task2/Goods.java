@@ -1,0 +1,3 @@
+package Lesson16.Task2;
+
+public enum Goods {BEER, VODKA, CHIPS, BREAD, MILK, HERRING, KEFIR, LOAF, BUCKWHEAT, SAUSAGES, YOGURT}
